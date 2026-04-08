@@ -5,7 +5,6 @@ public class Park {
             this.information = information;
             this.time = time;
             this.price = price;
-
         }
 
         private String information;
