@@ -1,14 +1,15 @@
 package arithmetic;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertThrows;
 
 public class TriangleAreaCalculatorTest {
 
     @Test
     void testArea() {
-        assertEquals(10, TriangleAreaCalculator.area(4, 5));
+        assertEquals(TriangleAreaCalculator.area(4, 5), 10);
     }
 
     @Test
