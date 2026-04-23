@@ -19,7 +19,7 @@ public class FactorialCalculatorTest {
     }
 
     @DataProvider
-    public Object[][] getData() {
+    private Object[][] getData() {
         return new Object[][]{
                 {5, 120},
                 {0, 1},
