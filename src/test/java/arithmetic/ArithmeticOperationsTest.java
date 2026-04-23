@@ -8,21 +8,21 @@ public class ArithmeticOperationsTest {
 
     @Test
     public void testAdd() {
-        assertEquals(ArithmeticOperations.add(3, 4), 7);
+        assertEquals(7, ArithmeticOperations.add(3, 4));
     }
 
     @Test
     public void testSubtract() {
-        assertEquals(ArithmeticOperations.subtract(3, 4), -1);
+        assertEquals(-1, ArithmeticOperations.subtract(3, 4));
     }
 
     @Test
     public void testMultiply() {
-        assertEquals(ArithmeticOperations.multiply(3, 5), 15);
+        assertEquals(15, ArithmeticOperations.multiply(3, 5));
     }
 
     @Test
     public void testDivide() {
-        assertEquals(ArithmeticOperations.divide(10, 5), 2.0);
+        assertEquals(2.0, ArithmeticOperations.divide(10, 5));
     }
 }
