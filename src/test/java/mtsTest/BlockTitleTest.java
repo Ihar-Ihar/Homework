@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BlockTitle extends BaseSelenium {
+public class BlockTitleTest extends BaseSelenium {
 
     @Test
     public void blockTitle() {
