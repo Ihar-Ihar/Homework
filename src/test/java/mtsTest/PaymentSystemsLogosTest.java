@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestPaymentSystemsLogos extends BaseSelenium {
+public class PaymentSystemsLogosTest extends BaseSelenium {
 
     @Test
     public void testDetailsLink() {

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestDetailsLink extends BaseSelenium {
+public class DetailsLinkTest extends BaseSelenium {
 
     @Test
     public void testDetailsLink() {

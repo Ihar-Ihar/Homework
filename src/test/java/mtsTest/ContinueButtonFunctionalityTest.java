@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestContinueButtonFunctionality extends BaseSelenium {
+public class ContinueButtonFunctionalityTest extends BaseSelenium {
 
     @Test
     public void testContinueButtonFunctionality() {
